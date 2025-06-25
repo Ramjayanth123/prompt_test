@@ -1,20 +1,20 @@
-# Domain Analysis: Medical Question Answering
+# 🧠 Domain Analysis: Medical Question Answering
 
-## Domain Overview
-Medical question answering (QA) involves providing accurate, safe, and helpful responses to health-related queries from users. The domain is characterized by high stakes, as misinformation can have serious consequences for users' health and well-being.
+## 🌍 What is Medical QA?
+Medical QA means answering health-related questions with accuracy, safety, and empathy. In this domain, every word matters—misinformation can have real consequences! ⚠️
 
-## Key Challenges
-- **Factuality:** Ensuring responses are evidence-based and up-to-date.
-- **Safety:** Avoiding harmful advice and clearly communicating uncertainty or limitations.
-- **Coverage:** Addressing a wide range of medical topics, from symptoms to treatments.
-- **User Understanding:** Adapting explanations to different levels of health literacy.
-- **Hallucination:** Preventing the generation of plausible-sounding but incorrect or unverifiable information.
+## 🚧 Key Challenges
+- 🏥 **Factuality:** Answers must be evidence-based and current
+- 🛡️ **Safety:** Avoid harmful advice, clearly state uncertainties
+- 🌐 **Coverage:** Address a wide range of medical topics
+- 🗣️ **User Understanding:** Adapt to different health literacy levels
+- 👻 **Hallucination:** Prevent plausible-sounding but incorrect info
 
-## Project Approach
-- **Prompt Engineering:** Multiple prompt styles (zero-shot, few-shot, CoT, meta) are used to guide LLMs toward safer and more accurate answers.
-- **Evaluation:** Responses are assessed for factuality, helpfulness, safety, conciseness, and hallucination risk using both automated and manual methods.
-- **Hallucination Detection:** Pattern-based detection flags overconfident, unverifiable, or inappropriate claims.
-- **Iterative Improvement:** Prompts and detection patterns are refined based on observed failure cases and user feedback.
+## 🛠️ Our Approach
+- 🧩 **Prompt Engineering:** Test zero-shot, few-shot, CoT, and meta prompts
+- 🧪 **Evaluation:** Score responses for factuality, helpfulness, safety, conciseness, and hallucination risk
+- 🚨 **Hallucination Detection:** Flag overconfident, unverifiable, or unsafe claims
+- 🔄 **Iterative Improvement:** Refine prompts and detection based on real outputs and user feedback
 
-## Impact
-This approach aims to improve the reliability of LLMs in medical QA, supporting safer deployment in digital health applications. 
+## 🌟 Impact
+By combining smart prompts and robust evaluation, we help LLMs become safer, more reliable digital health assistants! 🤖💙 
